@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18780EC51D2BAC8C0033789F /* www.m in Sources */ = {isa = PBXBuildFile; fileRef = 18780EC41D2BAC8C0033789F /* www.m */; };
 		405108A01BEF7E3C003BCFF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4051089F1BEF7E3C003BCFF7 /* main.m */; };
 		405108A31BEF7E3C003BCFF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 405108A21BEF7E3C003BCFF7 /* AppDelegate.m */; };
 		405108AB1BEF7E3C003BCFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405108AA1BEF7E3C003BCFF7 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18780EC31D2BAC8C0033789F /* www.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = www.h; sourceTree = "<group>"; };
+		18780EC41D2BAC8C0033789F /* www.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = www.m; sourceTree = "<group>"; };
 		4051089B1BEF7E3C003BCFF7 /* HTY360Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTY360Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4051089F1BEF7E3C003BCFF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		405108A11BEF7E3C003BCFF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				405108A11BEF7E3C003BCFF7 /* AppDelegate.h */,
 				405108A21BEF7E3C003BCFF7 /* AppDelegate.m */,
+				18780EC31D2BAC8C0033789F /* www.h */,
+				18780EC41D2BAC8C0033789F /* www.m */,
 				405108CF1BEF8B76003BCFF7 /* Shader */,
 				405108C11BEF8459003BCFF7 /* 360Player */,
 				405108C51BEF857C003BCFF7 /* Menu */,
@@ -223,6 +228,7 @@
 				405108B71BEF7EDB003BCFF7 /* GLProgram.m in Sources */,
 				405108A31BEF7E3C003BCFF7 /* AppDelegate.m in Sources */,
 				405108A01BEF7E3C003BCFF7 /* main.m in Sources */,
+				18780EC51D2BAC8C0033789F /* www.m in Sources */,
 				405108BB1BEF7F32003BCFF7 /* HTY360PlayerVC.m in Sources */,
 				405108BF1BEF8193003BCFF7 /* HTYGLKVC.m in Sources */,
 			);
